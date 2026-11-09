@@ -9,7 +9,7 @@ public class Assignment01Q03 {
         for (int i = 0; i < x; i++) {
             System.out.print(fib1);
             if (i < x - 1)
-                System.out.print(" "); // Make sure we don't print a trailing space
+                System.out.print(" "); 
             if (fib1 % 2 == 1) {
                 numOdd++;
             }
